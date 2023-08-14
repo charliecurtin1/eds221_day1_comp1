@@ -2,6 +2,10 @@
 title: "eds221_day1_comp1"
 format: html
 editor: visual
+execute:
+  warning: false
 ---
 
-## 
+```{r}
+energy2 <- read_csv("../data/us_energy.csv")
+```
